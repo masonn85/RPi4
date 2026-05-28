@@ -12,8 +12,8 @@ env:
   PROJECT_URL: https://github.com/pftf/RPi4
   RPI_FIRMWARE_URL: https://github.com/raspberrypi/firmware/
   ARCH: AARCH64
-  COMPILER: GCC5
-  GCC5_AARCH64_PREFIX: aarch64-linux-gnu-
+  COMPILER: GCC
+  GCC_AARCH64_PREFIX: aarch64-linux-gnu-
   # The following should usually be set to 'master' but, in case
   # of a regression, a specific SHA-1 can be specified.
   START_ELF_VERSION: master
